@@ -1,0 +1,130 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:background="#F9F9F9">
+
+    <!-- Main Heading -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:alpha="0.7"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/background"
+        android:contentDescription="@null"/>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="@string/app_name"
+        android:textColor="#920334"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <!-- Aptitude Test Button with Image -->
+    <LinearLayout
+        android:id="@+id/layoutAptitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTitle"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/layout_edit"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="12dp">
+
+        <ImageView
+            android:layout_width="112dp"
+            android:layout_height="120dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/image_edit"
+            android:baselineAlignBottom="false"
+            android:clipToOutline="true"
+            android:contentDescription="@null"
+            android:src="@drawable/aptitudeicon" />
+
+        <Button
+            android:id="@+id/btnAptitude"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:background="@android:color/transparent"
+            android:text="@string/aptitude_test_btn"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <!-- Technical Test Button with Image -->
+    <LinearLayout
+        android:id="@+id/layoutTechnical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layoutAptitude"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/layout_edit"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="12dp">
+
+        <Button
+            android:id="@+id/btnTechnical"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:background="@android:color/transparent"
+            android:text="@string/technical_test_btn"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="104dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="16dp"
+            android:contentDescription="@null"
+            android:src="@drawable/technicalicon" />
+    </LinearLayout>
+
+    <!-- SVAR Test Button with Image -->
+    <LinearLayout
+        android:id="@+id/layoutSvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layoutTechnical"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/layout_edit"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="12dp">
+
+        <ImageView
+            android:layout_width="105dp"
+            android:layout_height="111dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/image_edit"
+            android:clipToOutline="true"
+            android:contentDescription="@null"
+            android:src="@drawable/svaricon" />
+
+        <Button
+            android:id="@+id/btnSvar"
+            android:layout_width="202dp"
+            android:layout_height="120dp"
+            android:background="@android:color/transparent"
+            android:text="@string/svar_test_btn"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+</RelativeLayout>

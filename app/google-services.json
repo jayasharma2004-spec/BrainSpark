@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "542162043475",
+    "project_id": "brainspark-9c536",
+    "storage_bucket": "brainspark-9c536.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542162043475:android:cc6b942ccc5afb6ce27ca6",
+        "android_client_info": {
+          "package_name": "com.example.brainspark"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeuG-rSP35o9P8_4O854jUYzxjy0GdsdY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

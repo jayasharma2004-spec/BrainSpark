@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CADFE7"
+    android:id="@+id/aptitude"
+    tools:context=".AptitudeActivity">
+
+    <TextView
+        android:id="@+id/tvHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/aptitude_prep"
+        android:textColor="#222222"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <!-- Mock Test Button -->
+
+    <!-- Tips & Tricks Button -->
+    <Button
+        android:id="@+id/btnMockTest"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="300dp"
+        android:layout_height="89dp"
+        android:layout_below="@id/tvHeading"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="40dp"
+        android:backgroundTint="#890303"
+        android:padding="15dp"
+        android:text="@string/mock_test_btn"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnTips"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="300dp"
+        android:layout_height="89dp"
+        android:layout_below="@id/btnMockTest"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="40dp"
+        android:backgroundTint="#C8841F"
+        android:padding="15dp"
+        android:text="@string/tips_tricks_btn"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+    <!-- Topic-wise Test Button -->
+    <Button
+        android:id="@+id/btnTopicWise"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="300dp"
+        android:layout_height="89dp"
+        android:layout_below="@id/btnTips"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="40dp"
+        android:backgroundTint="#831097"
+        android:padding="15dp"
+        android:text="@string/topic1_test_btn"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+</RelativeLayout>
