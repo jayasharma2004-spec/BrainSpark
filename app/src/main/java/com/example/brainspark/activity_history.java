@@ -16,6 +16,7 @@ import java.util.Date;
 public class activity_history extends AppCompatActivity {
 
     ListView listView;
+//    Button button
     ArrayList<String> historyList = new ArrayList<>();
     ArrayAdapter<String> adapter;
     FirebaseFirestore db;
