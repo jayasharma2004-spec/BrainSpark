@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFE6E6"
+    android:id="@+id/dsa">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- ========================= ARRAY ========================= -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Array – Important Questions"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:padding="10dp"
+            android:paddingTop="20dp"/>
+
+        <!-- 1 -->
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="1. Two Sum" android:textSize="18sp" android:textStyle="bold"
+            android:textColor="#000" android:padding="5dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="https://leetcode.com/problems/two-sum/" android:autoLink="web"
+            android:textColor="#1E88E5" android:paddingBottom="15dp"/>
+
+        <!-- 2 -->
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="2. Best Time to Buy and Sell Stock" android:textSize="18sp"
+            android:textStyle="bold" android:textColor="#000" android:padding="5dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="https://leetcode.com/problems/best-time-to-buy-and-sell-stock/"
+            android:autoLink="web" android:textColor="#1E88E5" android:paddingBottom="15dp"/>
+
+        <!-- 3 -->
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="3. Maximum Subarray (Kadane’s Algo)" android:textSize="18sp"
+            android:textStyle="bold" android:textColor="#000" android:padding="5dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="https://leetcode.com/problems/maximum-subarray/" android:autoLink="web"
+            android:textColor="#1E88E5" android:paddingBottom="15dp"/>
+
+        <!-- 4 -->
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="4. Contains Duplicate" android:textSize="18sp" android:textStyle="bold"
+            android:textColor="#000" android:padding="5dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="https://leetcode.com/problems/contains-duplicate/" android:autoLink="web"
+            android:textColor="#1E88E5" android:paddingBottom="15dp"/>
+
+        <!-- 5 -->
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="5. Product of Array Except Self" android:textSize="18sp"
+            android:textStyle="bold" android:textColor="#000" android:padding="5dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="https://leetcode.com/problems/product-of-array-except-self/"
+            android:autoLink="web" android:textColor="#1E88E5" android:paddingBottom="15dp"/>
+
+        <!-- 6 -->
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="6. Rotate Array" android:textSize="18sp" android:textStyle="bold"
+            android:textColor="#000" android:padding="5dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="https://leetcode.com/problems/rotate-array/" android:autoLink="web"
+            android:textColor="#1E88E5" android:paddingBottom="15dp"/>
+
+        <!-- 7 -->
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="7. Majority Element" android:textSize="18sp" android:textStyle="bold"
+            android:textColor="#000" android:padding="5dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="https://leetcode.com/problems/majority-element/" android:autoLink="web"
+            android:textColor="#1E88E5" android:paddingBottom="15dp"/>
+
+        <!-- 8 -->
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="8. Merge Sorted Array" android:textSize="18sp"
+            android:textStyle="bold" android:textColor="#000" android:padding="5dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="https://leetcode.com/problems/merge-sorted-array/" android:autoLink="web"
+            android:textColor="#1E88E5" android:paddingBottom="15dp"/>
+
+        <!-- 9 -->
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="9. Maximum Product Subarray" android:textSize="18sp"
+            android:textStyle="bold" android:textColor="#000" android:padding="5dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="https://leetcode.com/problems/maximum-product-subarray/"
+            android:autoLink="web" android:textColor="#1E88E5" android:paddingBottom="15dp"/>
+
+        <!-- 10 -->
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="10. Find Minimum in Rotated Sorted Array" android:textSize="18sp"
+            android:textStyle="bold" android:textColor="#000" android:padding="5dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/"
+            android:autoLink="web" android:textColor="#1E88E5" android:paddingBottom="15dp"/>
+
+
+        <!-- ========================= STRING ========================= -->
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="String – Important Questions" android:textSize="22sp"
+            android:textStyle="bold" android:textColor="#000" android:padding="10dp"
+            android:paddingTop="20dp"/>
+
+        <!-- 11 to 20 same format -->
+        <TextView
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="11. Valid Anagram" android:textSize="18sp"
+            android:textStyle="bold" android:textColor="#000" android:padding="5dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="https://leetcode.com/problems/valid-anagram/"
+            android:autoLink="web" android:textColor="#1E88E5" android:paddingBottom="15dp"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="12. Longest Common Prefix" android:textSize="18sp"
+            android:textStyle="bold" android:textColor="#000" android:padding="5dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="https://leetcode.com/problems/longest-common-prefix/"
+            android:autoLink="web" android:textColor="#1E88E5" android:paddingBottom="15dp"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="13. Reverse String" android:textSize="18sp"
+            android:textStyle="bold" android:textColor="#000" android:padding="5dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="https://leetcode.com/problems/reverse-string/"
+            android:autoLink="web" android:textColor="#1E88E5" android:paddingBottom="15dp"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="14. First Unique Character" android:textSize="18sp"
+            android:textStyle="bold" android:textColor="#000" android:padding="5dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="https://leetcode.com/problems/first-unique-character-in-a-string/"
+            android:autoLink="web" android:textColor="#1E88E5" android:paddingBottom="15dp"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="15. Implement strStr()" android:textSize="18sp"
+            android:textStyle="bold" android:textColor="#000" android:padding="5dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/"
+            android:autoLink="web" android:textColor="#1E88E5" android:paddingBottom="15dp"/>
+
+        <!-- 5 more string questions-->
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="16. Valid Palindrome" android:textSize="18sp"
+            android:textStyle="bold" android:textColor="#000" android:padding="5dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="https://leetcode.com/problems/valid-palindrome/"
+            android:autoLink="web" android:textColor="#1E88E5" android:paddingBottom="15dp"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="17. Longest Palindrome" android:textSize="18sp"
+            android:textStyle="bold" android:textColor="#000" android:padding="5dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="https://leetcode.com/problems/longest-palindrome/"
+            android:autoLink="web" android:textColor="#1E88E5" android:paddingBottom="15dp"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="18. Longest Substring Without Repeating Characters"
+            android:textSize="18sp" android:textStyle="bold" android:textColor="#000"
+            android:padding="5dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="https://leetcode.com/problems/longest-substring-without-repeating-characters/"
+            android:autoLink="web" android:textColor="#1E88E5" android:paddingBottom="15dp"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="19. Valid Parentheses (String version)"
+            android:textSize="18sp" android:textStyle="bold" android:textColor="#000"
+            android:padding="5dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="https://leetcode.com/problems/valid-parentheses/"
+            android:autoLink="web" android:textColor="#1E88E5" android:paddingBottom="15dp"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="20. Group Anagrams" android:textSize="18sp"
+            android:textStyle="bold" android:textColor="#000" android:padding="5dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="https://leetcode.com/problems/group-anagrams/"
+            android:autoLink="web" android:textColor="#1E88E5" android:paddingBottom="15dp"/>
+
+
+        <!-- ========================= STACK & QUEUE ========================= -->
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Stack and Queue – Important Questions" android:textSize="22sp"
+            android:textStyle="bold" android:textColor="#000" android:padding="10dp"
+            android:paddingTop="20dp"/>
+
+        <!-- 21 to 30 -->
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="21. Min Stack" android:textSize="18sp" android:textStyle="bold"
+            android:textColor="#000" android:padding="5dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="https://leetcode.com/problems/min-stack/"
+            android:autoLink="web" android:textColor="#1E88E5" android:paddingBottom="15dp"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="22. Valid Parentheses" android:textSize="18sp" android:textStyle="bold"
+            android:textColor="#000" android:padding="5dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="https://leetcode.com/problems/valid-parentheses/"
+            android:autoLink="web" android:textColor="#1E88E5" android:paddingBottom="15dp"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="23. Implement Queue Using Stacks" android:textSize="18sp"
+            android:textStyle="bold" android:textColor="#000" android:padding="5dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="https://leetcode.com/problems/implement-queue-using-stacks/"
+            android:autoLink="web" android:textColor="#1E88E5" android:paddingBottom="15dp"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="24. Implement Stack Using Queues" android:textSize="18sp"
+            android:textStyle="bold" android:textColor="#000" android:padding="5dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="https://leetcode.com/problems/implement-stack-using-queues/"
+            android:autoLink="web" android:textColor="#1E88E5" android:paddingBottom="15dp"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="25. Evaluate Reverse Polish Notation" android:textSize="18sp"
+            android:textStyle="bold" android:textColor="#000" android:padding="5dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="https://leetcode.com/problems/evaluate-reverse-polish-notation/"
+            android:autoLink="web" android:textColor="#1E88E5" android:paddingBottom="15dp"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="26. Daily Temperatures" android:textSize="18sp"
+            android:textStyle="bold" android:textColor="#000" android:padding="5dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="https://leetcode.com/problems/daily-temperatures/"
+            android:autoLink="web" android:textColor="#1E88E5" android:paddingBottom="15dp"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="27. Next Greater Element" android:textSize="18sp"
+            android:textStyle="bold" android:textColor="#000" android:padding="5dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="https://leetcode.com/problems/next-greater-element-i/"
+            android:autoLink="web" android:textColor="#1E88E5" android:paddingBottom="15dp"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="28. Backspace String Compare" android:textSize="18sp"
+            android:textStyle="bold" android:textColor="#000" android:padding="5dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="https://leetcode.com/problems/backspace-string-compare/"
+            android:autoLink="web" android:textColor="#1E88E5" android:paddingBottom="15dp"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="29. Remove Outermost Parentheses" android:textSize="18sp"
+            android:textStyle="bold" android:textColor="#000" android:padding="5dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="https://leetcode.com/problems/remove-outermost-parentheses/"
+            android:autoLink="web" android:textColor="#1E88E5" android:paddingBottom="15dp"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="30. Simplify Path" android:textSize="18sp"
+            android:textStyle="bold" android:textColor="#000" android:padding="5dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="https://leetcode.com/problems/simplify-path/"
+            android:autoLink="web" android:textColor="#1E88E5" android:paddingBottom="15dp"/>
+
+
+        <!-- ========================= TREE ========================= -->
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Tree – Important Questions" android:textSize="22sp"
+            android:textStyle="bold" android:textColor="#000" android:padding="10dp"
+            android:paddingTop="20dp"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="31. Maximum Depth of Binary Tree" android:textSize="18sp"
+            android:textStyle="bold" android:textColor="#000" android:padding="5dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="https://leetcode.com/problems/maximum-depth-of-binary-tree/"
+            android:autoLink="web" android:textColor="#1E88E5" android:paddingBottom="15dp"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="32. Same Tree" android:textSize="18sp"
+            android:textStyle="bold" android:textColor="#000" android:padding="5dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="https://leetcode.com/problems/same-tree/"
+            android:autoLink="web" android:textColor="#1E88E5" android:paddingBottom="15dp"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="33. Invert Binary Tree" android:textSize="18sp"
+            android:textStyle="bold" android:textColor="#000" android:padding="5dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="https://leetcode.com/problems/invert-binary-tree/"
+            android:autoLink="web" android:textColor="#1E88E5" android:paddingBottom="15dp"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="34. Binary Tree Level Order Traversal" android:textSize="18sp"
+            android:textStyle="bold" android:textColor="#000" android:padding="5dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="https://leetcode.com/problems/binary-tree-level-order-traversal/"
+            android:autoLink="web" android:textColor="#1E88E5" android:paddingBottom="15dp"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="35. Diameter of Binary Tree" android:textSize="18sp"
+            android:textStyle="bold" android:textColor="#000" android:padding="5dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="https://leetcode.com/problems/diameter-of-binary-tree/"
+            android:autoLink="web" android:textColor="#1E88E5" android:paddingBottom="15dp"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="36. Balanced Binary Tree" android:textSize="18sp"
+            android:textStyle="bold" android:textColor="#000" android:padding="5dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="https://leetcode.com/problems/balanced-binary-tree/"
+            android:autoLink="web" android:textColor="#1E88E5" android:paddingBottom="15dp"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="37. Binary Tree Maximum Path Sum" android:textSize="18sp"
+            android:textStyle="bold" android:textColor="#000" android:padding="5dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="https://leetcode.com/problems/binary-tree-maximum-path-sum/"
+            android:autoLink="web" android:textColor="#1E88E5" android:paddingBottom="15dp"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="38. Construct Binary Tree from Preorder and Inorder"
+            android:textSize="18sp" android:textStyle="bold" android:textColor="#000"
+            android:padding="5dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/"
+            android:autoLink="web" android:textColor="#1E88E5" android:paddingBottom="15dp"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="39. Symmetric Tree" android:textSize="18sp"
+            android:textStyle="bold" android:textColor="#000" android:padding="5dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="https://leetcode.com/problems/symmetric-tree/"
+            android:autoLink="web" android:textColor="#1E88E5" android:paddingBottom="15dp"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="40. Lowest Common Ancestor" android:textSize="18sp"
+            android:textStyle="bold" android:textColor="#000" android:padding="5dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/"
+            android:autoLink="web" android:textColor="#1E88E5" android:paddingBottom="15dp"/>
+
+
+        <!-- ========================= GRAPH ========================= -->
+        <TextView
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Graph – Important Questions" android:textSize="22sp"
+            android:textStyle="bold" android:textColor="#000" android:padding="10dp"
+            android:paddingTop="20dp"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="41. Clone Graph" android:textSize="18sp"
+            android:textStyle="bold" android:textColor="#000" android:padding="5dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="https://leetcode.com/problems/clone-graph/"
+            android:autoLink="web" android:textColor="#1E88E5" android:paddingBottom="15dp"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="42. Number of Islands" android:textSize="18sp"
+            android:textStyle="bold" android:textColor="#000" android:padding="5dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="https://leetcode.com/problems/number-of-islands/"
+            android:autoLink="web" android:textColor="#1E88E5" android:paddingBottom="15dp"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="43. Rotting Oranges" android:textSize="18sp"
+            android:textStyle="bold" android:textColor="#000" android:padding="5dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="https://leetcode.com/problems/rotting-oranges/"
+            android:autoLink="web" android:textColor="#1E88E5" android:paddingBottom="15dp"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="44. Course Schedule" android:textSize="18sp"
+            android:textStyle="bold" android:textColor="#000" android:padding="5dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="https://leetcode.com/problems/course-schedule/"
+            android:autoLink="web" android:textColor="#1E88E5" android:paddingBottom="15dp"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="45. Word Ladder" android:textSize="18sp"
+            android:textStyle="bold" android:textColor="#000" android:padding="5dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="https://leetcode.com/problems/word-ladder/"
+            android:autoLink="web" android:textColor="#1E88E5" android:paddingBottom="15dp"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="46. Pacific Atlantic Water Flow" android:textSize="18sp"
+            android:textStyle="bold" android:textColor="#000" android:padding="5dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="https://leetcode.com/problems/pacific-atlantic-water-flow/"
+            android:autoLink="web" android:textColor="#1E88E5" android:paddingBottom="15dp"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="47. Surrounded Regions" android:textSize="18sp"
+            android:textStyle="bold" android:textColor="#000" android:padding="5dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="https://leetcode.com/problems/surrounded-regions/"
+            android:autoLink="web" android:textColor="#1E88E5" android:paddingBottom="15dp"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="48. Graph Valid Tree" android:textSize="18sp"
+            android:textStyle="bold" android:textColor="#000" android:padding="5dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="https://leetcode.com/problems/graph-valid-tree/"
+            android:autoLink="web" android:textColor="#1E88E5" android:paddingBottom="15dp"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="49. Reconstruct Itinerary" android:textSize="18sp"
+            android:textStyle="bold" android:textColor="#000" android:padding="5dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="https://leetcode.com/problems/reconstruct-itinerary/"
+            android:autoLink="web" android:textColor="#1E88E5" android:paddingBottom="15dp"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="50. Detect Cycle in Directed Graph" android:textSize="18sp"
+            android:textStyle="bold" android:textColor="#000" android:padding="5dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="https://leetcode.com/problems/course-schedule/"
+            android:autoLink="web" android:textColor="#1E88E5" android:paddingBottom="30dp"/>
+
+    </LinearLayout>
+</ScrollView>

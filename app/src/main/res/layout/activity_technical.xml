@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE6E6"
+    android:id="@+id/technical">   <!-- Light Pink Background -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- DSA Button -->
+        <Button
+            android:id="@+id/btnDSA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:padding="15dp"
+            android:text="DSA"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <!-- DBMS Button -->
+        <Button
+            android:id="@+id/btnDBMS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="130dp"
+            android:layout_marginBottom="20dp"
+            android:padding="15dp"
+            android:text="DBMS"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <!-- OS Button -->
+        <Button
+            android:id="@+id/btnOS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:layout_marginBottom="20dp"
+            android:padding="15dp"
+            android:text="Operating System"
+
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <!-- CN Button -->
+        <Button
+            android:id="@+id/btnCN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:layout_marginBottom="20dp"
+            android:padding="15dp"
+            android:text="Computer Networks"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+</ScrollView>

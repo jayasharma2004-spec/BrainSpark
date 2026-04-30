@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9FAFB"
+    android:padding="16dp"
+    android:id="@+id/topic">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:text="Quantitative Aptitude"
+            android:textColor="#1E293B"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <!-- Grid for topic cards -->
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:alignmentMode="alignMargins"
+            android:useDefaultMargins="true"
+            android:columnOrderPreserved="false">
+
+            <!-- Each topic card -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_margin="8dp"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="6dp"
+                app:strokeWidth="1dp"
+                app:strokeColor="#E5E7EB">
+
+                <Button
+                    android:id="@+id/btnPercentage"
+                    android:layout_width="170dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:backgroundTint="#3B82F6"
+                    android:text="Percentage"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:onClick="openPercentage"
+                    android:textStyle="bold" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_margin="8dp"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="6dp"
+                app:strokeWidth="1dp"
+                app:strokeColor="#E5E7EB">
+
+                <Button
+                    android:id="@+id/btnPermutation"
+                    android:layout_width="170dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:onClick="openPermutation"
+                    android:backgroundTint="#3B82F6"
+                    android:text="Permutation and Combination"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_margin="8dp"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="6dp"
+                app:strokeWidth="1dp"
+                app:strokeColor="#E5E7EB">
+
+                <Button
+                    android:id="@+id/btnProbability"
+                    android:layout_width="170dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:onClick="openProbability"
+                    android:backgroundTint="#3B82F6"
+                    android:text="Probability"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_margin="8dp"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="6dp"
+                app:strokeWidth="1dp"
+                app:strokeColor="#E5E7EB">
+
+                <Button
+                    android:id="@+id/btnAreaPerimeter"
+                    android:layout_width="170dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:onClick="openAreaPerimeter"
+                    android:backgroundTint="#3B82F6"
+                    android:text="Areas and Perimeter"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_margin="8dp"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="6dp"
+                app:strokeWidth="1dp"
+                app:strokeColor="#E5E7EB">
+
+                <Button
+                    android:id="@+id/btnTimeWork"
+                    android:layout_width="170dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:backgroundTint="#3B82F6"
+                    android:text="Time and Work"
+                    android:onClick="openTimeWork"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_margin="8dp"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="6dp"
+                app:strokeWidth="1dp"
+                app:strokeColor="#E5E7EB">
+
+                <Button
+                    android:id="@+id/btnTimeDistance"
+                    android:layout_width="170dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:onClick="openTimeDistance"
+                    android:backgroundTint="#3B82F6"
+                    android:text="Time and Distance"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_margin="8dp"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="6dp"
+                app:strokeWidth="1dp"
+                app:strokeColor="#E5E7EB">
+
+                <Button
+                    android:id="@+id/btnDivisibility"
+                    android:layout_width="170dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:onClick="openDivisibility"
+                    android:backgroundTint="#3B82F6"
+                    android:text="Divisibility"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_margin="8dp"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="6dp"
+                app:strokeWidth="1dp"
+                app:strokeColor="#E5E7EB">
+
+                <Button
+                    android:id="@+id/btnHcfLcm"
+                    android:layout_width="170dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:onClick="openHcfLcm"
+                    android:backgroundTint="#3B82F6"
+                    android:text="HCF and LCM"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_margin="8dp"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="6dp"
+                app:strokeWidth="1dp"
+                app:strokeColor="#E5E7EB">
+
+                <Button
+                    android:id="@+id/btnAverage"
+                    android:layout_width="170dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:onClick="openAverage"
+                    android:backgroundTint="#3B82F6"
+                    android:text="Average"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </com.google.android.material.card.MaterialCardView>
+
+        </GridLayout>
+    </LinearLayout>
+</ScrollView>

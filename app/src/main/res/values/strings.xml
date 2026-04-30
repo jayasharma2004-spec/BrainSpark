@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">BrainSpark</string>
+    <string name="aptitude_test_btn">Aptitude Test</string>
+    <string name="technical_test_btn">Technical Test</string>
+    <string name="svar_test_btn">SVAR Test</string>
+    <string name="aptitude_prep">Aptitude Preparation</string>
+    <string name="mock_test_btn">Mock Test</string>
+    <string name="tips_tricks_btn">Tips-Tricks</string>
+    <string name="topic1_test_btn">Topic-Wise</string>
+    <!-- Tips and tricks -->
+    <string name="avg">Chapter: Average </string>
+    <string name="avgContent">Tip 1: Average = Sum of the observations / Number of observations\n
+     Tip 2: The average of any consecutive series is the middle term (median).\nAverage of first n natural numbers = (n+1) / 2 \n
+Average of squares of first n natural numbers = (n+1) (2n+1) / 6 \n
+Average of cubes of first n natural numbers = n (n+1)2 / 4 \n
+Average of first n even numbers = n + 1
+</string>
+    <string name="avg2Content">Average of squares of first n even numbers = 2 (n+1) (2n+1) / 3 \n
+Average of cube of first n even numbers = 2n (n+1)2 \n
+Average of first n odd numbers = n \n
+Average of squares of first n odd numbers = (2n+1) (2n-1) / 3 \n
+Average of cube of first n odd numbers = n(2n2 – 1)</string>
+    <string name="ratio">Chapter: Ratio and Proportion </string>
+    <string name="ratioProportion">1.If x : y and z : a, then it can be solved as (x*z)/(y*a).\n
+2.If x/y=z/a=b/c, then each of these ratios is equal to (x+z+e) ⁄(y+a+f)\n
+3.If x/y=z/a, then y/x=a/z (Invertenao)\n
+4.If x/y=z/a, then x/z=y/a (Alterenao)\n
+5.If x/y=z/a, then (x+y)/y=(z+a)/a (Componendo)\n
+6.If x/y=z/a, then (x-y)/y=(z-a)/a (Dividenao)\n7.If x/y=z/a, then (x+y)/(x-y)=(z+a)/(z-a) (Componendo and Dividendo)</string>
+    <string name="ratioProportion2">8.Four numbers x, y, z are in proportion if x : y = z : a. If x : y = y : z = z : a, then they in continued proportion.\n
+9.Let us consider the ratios, x : y = y : z. Here y is called the mean proportional. y2 = x *z ⇒ y = √xz\n
+10.If the three ratios, x : y, y : z, z : a is known, we can find x/a = x/y * y/z * z/a\n
+11.If we know x : y, y : z, z : a then one can find the ratio x : y : z : a.\n </string>
+    <string name="Percentage">1. Percentage formula=(Actual value/Total value)×100\n
+        2.Percentage Difference Formula=∣First Value−Second Value/((First Value+Second Value)/2)∣×100%\n
+        3.Percentage Increase=(Rise in the Number/Original Number)×100%\n
+        4.Percentage Decrease=(Decrease in the Number/Original Number)×100%\n
+        5.Percentage Change=((New value – Original value)/Original value)×100\n
+  </string>
+    <string name="time">1.Speed=Distance/Time\n
+2.Time=Distance/speed\n
+3.Distance = speed*time\n
+4.1km/hr=5/18m/s\n
+5.1m/s=18/5Km/hr\n
+6.If the ratio of the speed of A and B is a:b,then the ratio of the time taken by them to cover the same distance is 1/a:1/b or b:a\n
+Suppose  a man covers  a distance at x  kmph and an equal  distance at y kmph, then the AVERAGE SPEED during the whole journey is (2xy/x+y) kmph\n
+Out of time, speed and distance we can compute any one of the quantities when we happen to know the other two. For example, suppose we drive for 2 hours at 30 miles per hour, for a total of 60 miles.\n
+If we know the time and the speed, we can find the distance:\n
+2 hour * 30 miles/hour=60 miles\n
+If we know the time and the distance, we can find the speed:\n
+60 miles/2 hours=30miles/hour\n
+7.For a non-uniform motion, Average speed= Total distance travelled/Total time taken\n\n
+When the body travels at ‘u’ m/s for t1 seconds and ‘v’ m/s for t2 seconds, then
+Average speed= (ut1+vt2)/(t1+t2)\n\n
+When the body travels l distance at ‘u’ m/s and ‘m’ distance at ‘v’ m/s;\n
+Average speed = (mu+lv) / (l+m)\n
+8.Relative Speed: Speed of a moving body w.r.t. another moving body is called relative speed.\n
+Relative Speed:\n
+Case1: Two bodies are moving in opposite directions at speed V1 and V2 respectively. The relative speed is defined as Vr=V1+V2\n
+Case2:  Two bodies  are moving in same directions at speed V1 and V2 respectively. The relative speed is defined as Vr=|V1–V2|\n
+9.Train Problems:\n\n
+The basic equation in train problem is the same Speed=Distance/Time\n
+The following things need to be kept in mind while solving the train related problems.\n
+1-When the train is crossing a moving object, the speed has to be taken as the relative speed of the train with respect to the object.\n
+2-The  distance  to be covered when crossing an object, whenever trains crosses an object will be equal to: Length of the train + Length of the object\n\n
+10.BOATS AND STREAM\n
+Let U= Velocity of the boat in still water\n
+V=Velocity of the stream.\n
+While moving in upstream, distance covered, S=(U−V)T\n
+In case of downstream, distance covered ,S=(U+V)T\n\n
+11.Key points on Trains:
+When a train is crossing a pole distance travelled by the train= length of train\n
+When a train of length l is crossing a bridge of length b; the distance travelled by train=l+b\n
+When a train of length l is crossing a platform of length p; then distance travelled by train=l+p\n
+When a train of length l1 is crossing/ overtaking another train l2; then distance travelled = l1+l2
+  </string>
+    <string name="hcf">
+(HCF of Two Numbers) × (LCM of Two Numbers) = Product of two Numbers\n
+HCF(A,B)  × LCM(A,B) = A × B
+    </string>
+    <string name="permutation">
+1.Permutation: Used when order matters (e.g., seating arrangements, arranging letters).\n
+        P(n,r)=n!/(n-r)!\n
+        Definition: The number of arrangements of (r) objects from a set of (n) distinct objects.\n
+        2.Combination: Used when order does not matter (e.g., forming committees, selecting teams).\n
+        C(n,r)=n!/r!(n-r)!\n
+        3.Relation Between Permutation and Combination\n
+nPr = nCr × r!\n
+    </string>
+    <string name="area">
+        1.Area and Perimeter of Triangle :\nArea of a triangle = 1/2 × (base) × (height)\n
+Perimeter of a triangle = Sum of all three sides\n
+        2.Area and Perimeter Formula of Rectangle :\nArea of a rectangle = length × breadth\n
+        Perimeter of a rectangle = 2 × (length + breadth)\n
+        3.Area and Perimeter of Square:\nArea of a Square = (side) × (side)\n
+Perimeter of a Square = 4 × (side)\n
+        4.Area and Perimeter of Parallelogram :\nArea of a Parallelogram = Base × Height\n
+Perimeter of a Parallelogram = 2 × (Sum of opposite sides)\n
+        5.Area and Perimeter of Rhombus :\nArea of a Rhombus = 1/2 × ( Product of diagonals)\n
+Perimeter of a Rhombus = 4 × side\n
+    </string>
+
+</resources>
