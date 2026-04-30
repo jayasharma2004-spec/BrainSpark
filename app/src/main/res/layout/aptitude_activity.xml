@@ -27,7 +27,7 @@
         android:layout_width="300dp"
         android:layout_height="89dp"
         android:layout_below="@id/tvHeading"
-        android:layout_marginStart="40dp"
+        android:layout_marginStart="60dp"
         android:layout_marginTop="60dp"
         android:layout_marginEnd="40dp"
         android:backgroundTint="#890303"
@@ -42,7 +42,7 @@
         android:layout_width="300dp"
         android:layout_height="89dp"
         android:layout_below="@id/btnMockTest"
-        android:layout_marginStart="40dp"
+        android:layout_marginStart="60dp"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="40dp"
         android:backgroundTint="#C8841F"
@@ -58,7 +58,7 @@
         android:layout_width="300dp"
         android:layout_height="89dp"
         android:layout_below="@id/btnTips"
-        android:layout_marginStart="40dp"
+        android:layout_marginStart="60dp"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="40dp"
         android:backgroundTint="#831097"
@@ -66,5 +66,21 @@
         android:text="@string/topic1_test_btn"
         android:textColor="@android:color/white"
         android:textSize="24sp" />
+    <Button
+        android:id="@+id/btnHistory"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="300dp"
+        android:layout_height="89dp"
+        android:layout_below="@+id/btnTopicWise"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="40dp"
+        android:backgroundTint="#863268"
+        android:padding="15dp"
+        android:text="view history"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+
 
 </RelativeLayout>

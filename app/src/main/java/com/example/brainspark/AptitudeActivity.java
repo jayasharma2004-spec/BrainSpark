@@ -1,5 +1,7 @@
 package com.example.brainspark;
 
+import static androidx.core.content.ContextCompat.startActivity;
+
 import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.content.Intent;
@@ -40,6 +42,11 @@ public class AptitudeActivity extends AppCompatActivity {
         btnTopic.setOnClickListener(v -> {
             Intent intent = new Intent(AptitudeActivity.this, TopicWiseAptitude.class);
             startActivity(intent);
+        });
+        Button btnHistory = findViewById(R.id.btnHistory);
+
+        btnHistory.setOnClickListener(v -> {
+            startActivity(new Intent(this, activity_history.class));
         });
 
 

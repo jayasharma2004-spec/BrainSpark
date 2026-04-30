@@ -22,6 +22,24 @@ public class Technical extends AppCompatActivity {
             Intent intent = new Intent(Technical.this, DSA.class);
             startActivity(intent);
         });
+        Button btnDBMS=findViewById(R.id.btnDBMS);
+        btnDBMS.setOnClickListener(v -> {
+            Intent intent = new Intent(Technical.this, TechnicalSubject.class);
+            intent.putExtra("subject", "DBMS");
+            startActivity(intent);
+        });
+        Button btnOS=findViewById(R.id.btnOS);
+        btnOS.setOnClickListener(v -> {
+            Intent intent = new Intent(Technical.this, TechnicalSubject.class);
+            intent.putExtra("subject", "OS");
+            startActivity(intent);
+        });
+        Button btnCN=findViewById(R.id.btnCN);
+        btnCN.setOnClickListener(v -> {
+            Intent intent = new Intent(Technical.this, TechnicalSubject.class);
+            intent.putExtra("subject", "CN");
+            startActivity(intent);
+        });
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.technical), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);

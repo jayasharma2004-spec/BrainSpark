@@ -1,5 +1,5 @@
 package com.example.brainspark;
-
+import android.os.CountDownTimer;
 import android.content.Intent;
 import android.os.Bundle;
 import android.speech.RecognizerIntent;
@@ -15,6 +15,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.util.*;
 
 public class SvarTestActivity extends AppCompatActivity {
+    private TextView tvTimer;
+    private CountDownTimer countDownTimer;
+    private long timeLeftInMillis = 15 * 60 * 1000; // 15 minutes
 
     LinearLayout layoutRead, layoutListen, layoutJumble;
 
@@ -54,6 +57,8 @@ public class SvarTestActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.svar_test);
+        tvTimer = findViewById(R.id.tvTimer);
+        startTimer();
 
         layoutRead = findViewById(R.id.layoutRead);
         layoutListen = findViewById(R.id.layoutListen);
@@ -232,6 +237,11 @@ public class SvarTestActivity extends AppCompatActivity {
 
     // ---------------- RESULT ----------------
     private void goToResult() {
+
+        if (countDownTimer != null) {
+            countDownTimer.cancel(); // stop timer
+        }
+
         ResultStore.read = readResults;
         ResultStore.listen = listenResults;
         ResultStore.jumble = jumbleResults;
@@ -245,5 +255,38 @@ public class SvarTestActivity extends AppCompatActivity {
         List<String> words = Arrays.asList(s.split(" "));
         Collections.shuffle(words);
         return TextUtils.join(" ", words);
+    }
+    private void startTimer() {
+        countDownTimer = new CountDownTimer(timeLeftInMillis, 1000) {
+            @Override
+            public void onTick(long millisUntilFinished) {
+                timeLeftInMillis = millisUntilFinished;
+
+                int minutes = (int) (millisUntilFinished / 1000) / 60;
+                int seconds = (int) (millisUntilFinished / 1000) % 60;
+
+                String timeFormatted = String.format("%02d:%02d", minutes, seconds);
+                tvTimer.setText(timeFormatted);
+
+                // last 1 minute warning
+                if (millisUntilFinished <= 60000) {
+                    tvTimer.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
+                }
+            }
+
+            @Override
+            public void onFinish() {
+                tvTimer.setText("00:00");
+                Toast.makeText(SvarTestActivity.this, "Time's up! Auto submitting...", Toast.LENGTH_SHORT).show();
+                goToResult(); // AUTO SUBMIT
+            }
+        }.start();
+    }
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        if (countDownTimer != null) {
+            countDownTimer.cancel();
+        }
     }
 }

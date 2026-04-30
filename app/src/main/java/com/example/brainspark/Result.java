@@ -29,7 +29,7 @@ public class Result extends AppCompatActivity {
         int score = getIntent().getIntExtra("score", 0);
         int total = getIntent().getIntExtra("total", 10);
 
-        tvScore.setText("Your Score: " + score + "/" + total);
+        tvScore.setText("Score: " + score + "/" + total);
         if (score == total) {
             tvRemark.setText("🏆 Excellent! Perfect Score!");
         } else if (score >= total * 0.7) {
